@@ -1,3 +1,4 @@
+// Программа для вычисления параметров трапеции
 #include <iostream>
 #include <cmath>
 using namespace std;
