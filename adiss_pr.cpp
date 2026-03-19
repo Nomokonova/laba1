@@ -8,9 +8,9 @@ double Diagonal (double a, double b);
 
 int main(){
     double a, b;
-    cout<<"\nВведите длину прямоугольника\n";
+    cout<<"\nВведите длину прямоугольника: ";
     cin >> a;
-    cout<<"\nВведите ширину прямоугольника\n";
+    cout<<"\nВведите ширину прямоугольника: ";
     cin >> b;
 
     if (a<=0 || b<=0){
