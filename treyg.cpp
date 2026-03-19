@@ -37,12 +37,12 @@ using namespace std;
 		}
 		else {
 			if (isos(sideA, sideB, sideC)) {
-				cout << "треугольник равнобедренный\nпериметр равен\t" << perimetr(sideA,sideB,sideC) <<\
-					"\nплощадь равна\t" << area(sideA,sideB,sideC) << endl;
+				cout << "треугольник равнобедренный\nпериметр=" << perimetr(sideA,sideB,sideC) <<\
+					"\nплощадь=" << area(sideA,sideB,sideC) << endl;
 			}
 			else {
-				cout << "треугольник не равнобедренный\nпериметр равен\t" << perimetr(sideA, sideB, sideC) <<\
-					"\nплощадь равна\t" << area(sideA, sideB, sideC) << endl;
+				cout << "треугольник не равнобедренный\nпериметр=" << perimetr(sideA, sideB, sideC) <<\
+					"\nплощадь=" << area(sideA, sideB, sideC) << endl;
 			}
 		}
 }
