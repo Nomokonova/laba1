@@ -8,16 +8,16 @@ double Diagonal (double a, double b);
 
 int main(){
     double a, b;
-    cout<<"\nВведите длину прямоугольника\n";
+    cout<<"Введите длину прямоугольника: ";
     cin >> a;
-    cout<<"\nВведите ширину прямоугольника\n";
+    cout<<"\nВведите ширину прямоугольника: ";
     cin >> b;
 
     if (a<=0 || b<=0){
-        cout<<"\nЗначения должны быть положительными!\n";
+        cout<<"Значения должны быть положительными!\n";
         return 1;
     }
-    cout<<"\nПериметр: "<<Perimetr(a, b);
+    cout<<"Периметр: "<<Perimetr(a, b);
     cout<<"\nПлощадь: "<<Ploshad(a, b);
     cout<<"\nДлина диагонали: "<<Diagonal(a, b)<<"\n";
 
