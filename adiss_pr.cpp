@@ -3,7 +3,7 @@
 using namespace std;
 
 double Perimetr (double a, double b); //ttt
-double Ploshad (double a, double b);
+double Ploshad (double a, double b);//yyy
 double Diagonal (double a, double b);
 
 int main(){
