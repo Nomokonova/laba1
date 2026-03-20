@@ -45,4 +45,4 @@ using namespace std;
 					"\nплощадь равна\t" << area(sideA, sideB, sideC) << endl;
 			}
 		}
-}
+}//hhhhhhhhhhhh
