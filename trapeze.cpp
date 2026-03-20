@@ -32,9 +32,9 @@ int main() {
     double x = (diff * diff + c * c - d * d) / (2 * diff);
     double h = sqrt(c * c - x * x);
     
-    double perimeter = a + b + c + d;
+    double perimeter = a + b + c + d; //ggggg
     double area = (a + b) * h / 2;
-    double midline = (a + b) / 2;
+    double midline = (a + b) / 2;//aAAAAAAAAgit ad
     
     cout << "\nРезультаты:" << endl;
     cout << "Периметр: " << perimeter << endl;
@@ -43,3 +43,4 @@ int main() {
     
     return 0;
 }
+//jjjjjjjjjjjgit chjfjfj
